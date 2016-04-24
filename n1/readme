@@ -1,0 +1,2 @@
+To start:
+# docker run -d -p 80:80 n1

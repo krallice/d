@@ -1,0 +1,5 @@
+To start:
+# docker run -d -p 80:80 n1
+
+To enter running container:
+# docker exec -it 4d91ca599d31 bash

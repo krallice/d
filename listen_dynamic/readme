@@ -1,0 +1,6 @@
+# mkdir /tmp/listen_dynamic
+#
+# cp ./listen /tmp/listen_dynamic/listen.txt
+#
+# Create a volume link to get our nginx config to service from the host:
+# docker run -d -p 80:80 -v /tmp/listen_dynamic:/usr/share/nginx/html listen_dynamic
